@@ -1,0 +1,6 @@
+version: 1.2
+workflows:
+  - name: SingleReadSNV
+    subclass: WDL
+    primaryDescriptorPath: /workflows/single_read_snv/single_read_snv.wdl
+    topic: "Forked from https://github.com/Ultimagen/healthomics-workflows. For testing on Dockstore."
